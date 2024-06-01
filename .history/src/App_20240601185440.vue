@@ -14,7 +14,7 @@ export default {
     VoiceGenerator
   },
   mounted() {
-    window.particlesJS.load('particles-js', '/particles.json', function() {
+    particlesJS.load('particles-js', '/particles.json', function() {
       console.log('particles.js loaded - callback');
     });
   }
@@ -34,3 +34,4 @@ export default {
   align-items: center;
 }
 </style>
+ 

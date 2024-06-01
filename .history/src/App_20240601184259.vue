@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <div id="particles-js"></div>
     <VoiceGenerator />
   </div>
 </template>
@@ -12,11 +11,6 @@ export default {
   name: 'App',
   components: {
     VoiceGenerator
-  },
-  mounted() {
-    window.particlesJS.load('particles-js', '/particles.json', function() {
-      console.log('particles.js loaded - callback');
-    });
   }
 };
 </script>
@@ -27,10 +21,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #f5f5f5;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  color: #2c3e50;
+  margin-top: 60px;
 }
 </style>

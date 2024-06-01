@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  #particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #2c3e50 0%, #4a5568 100%);
+    background-size: cover;
+    z-index: -1;
+  }
+  
+  .container {
+    background: rgba(44, 62, 80, 0.9); /* 使背景更加融入整体 */
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+    color: #f5f5f5; /* 统一文字颜色 */
+  }
+  
+  .card-header {
+    background-color: rgba(0, 123, 255, 0.8); /* 调整透明度 */
+    color: white;
+    border-radius: 15px 15px 0 0;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  audio {
+    width: 100%;
+    margin-top: 15px;
+  }
+  
+  .text-center {
+    margin-bottom: 15px;
+  }
+  
